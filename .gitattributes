@@ -1,0 +1,6 @@
+﻿# Normaliser les fins de ligne
+* text=auto
+
+# Fichiers binaires à ne pas modifier
+*.png binary
+*.jpg binary
