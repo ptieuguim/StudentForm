@@ -1,7 +1,7 @@
 import React from 'react';
 import { Student } from '../types/index';
 import { useLanguage } from '../contexts/LanguageContext';
-import { Calendar, Phone } from 'lucide-react';
+import { Calendar} from 'lucide-react';
 import { countries } from '../data/countries';
 
 interface Props {

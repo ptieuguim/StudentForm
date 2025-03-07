@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { GraduationCap } from 'lucide-react';
 import { StudentForm } from './components/StudentForm';
 import { ProgramSelection } from './components/ProgramSelection';
 import { AccommodationSelection } from './components/AccommodationSelection';
 import { RegistrationSummary } from './components/RegistrationSummary';
-import type { Student, Program, Accommodation, Registration } from './types';
+import type { Student, Program, Accommodation, Registration } from './types/index';
 import { useLanguage } from './contexts/LanguageContext';
 import { LanguageSwitch } from './components/LanguageSwitch';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
