@@ -1,4 +1,4 @@
-import { Program } from '../types';
+import { Program } from '../types/index';
 
 export const programs: Program[] = [
   {
